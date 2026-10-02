@@ -1,0 +1,16 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "color-named": "never",
+    "color-no-invalid-hex": true,
+    "font-family-name-quotes": "always-where-recommended",
+    "value-keyword-case": "lower",
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "selector-type-case": "lower",
+    "scss/at-extend-no-missing-placeholder": null,
+    "no-descending-specificity": null,
+    "selector-class-pattern": "^[a-z][a-zA-Z0-9_-]+$",
+    "selector-id-pattern": "^[a-z][a-zA-Z0-9_-]+$"
+  }
+}
